@@ -1,0 +1,42 @@
+.input:focus {
+    outline: none;
+    border: #2900cf 2px solid;
+}
+
+
+.superInput {
+    border: lightblue 2px solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5)
+}
+
+.superInput:focus {
+    border-radius: 10px;
+    outline: none;
+    border: white 2px solid;
+
+}
+
+.errorInput {
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.errorInput:focus {
+    outline: none;
+    border: red 2px solid;
+}
+
+.error {
+    color: red;
+}
+
+.blue {
+    border: #2900cf;
+
+}
+
+.testSpanError {
+    color: gold;
+}

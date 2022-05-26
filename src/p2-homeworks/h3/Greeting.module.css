@@ -1,0 +1,46 @@
+
+.body {
+    display: flex;
+    align-items: start;
+    background: linear-gradient(royalblue, lightblue);
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.transfer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.add {
+    margin-left: 5px;
+    background-color: #2f8efa;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.error {
+    border: 1px solid red;
+}
+
+
+.warning {
+    margin-top: 10px;
+    color: #ff2b2b;
+    font-weight: 600;
+    text-decoration-skip: auto;
+
+}
+
+.total {
+    margin-left: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: #2900cf;
+    font-weight: 600;
+
+}

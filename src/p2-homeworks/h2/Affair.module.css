@@ -1,0 +1,36 @@
+.body {
+
+    margin-left: 20px;
+    justify-content: space-between;
+    color: white;
+    font-family: "Comic Sans MS";
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Name {
+    padding: 5px;
+    background-color: #9b679c;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    border: #282c34 solid 1px;
+}
+
+.Priority {
+    background-color: #eb776e;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 50px;
+    text-align: center;
+    border: #282c34 solid 1px;
+
+}
+
