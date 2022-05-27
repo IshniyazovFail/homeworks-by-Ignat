@@ -38,7 +38,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         <div className={s.body}>
             <div className={s.transfer}><SuperInputText onEnter={onEnterHandler} value={name} onChange={onChangeHandler}
                                                         error={error}/></div>
-            <SuperButton disabled={name.trim() === ''} onClick={onClickHandler}>add</SuperButton>
+            <SuperButton  grey={name.trim() === ''} disabled={name.trim() === ''} onClick={onClickHandler}>add</SuperButton>
             <span className={s.total}>{totalUsers}</span>
 
         </div>

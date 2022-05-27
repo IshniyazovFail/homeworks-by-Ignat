@@ -1,0 +1,63 @@
+.header {
+    background: linear-gradient(royalblue, lightblue);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px ;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(lightblue,blue, lightblue);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+ a.active{
+     background: linear-gradient(darkblue,blue, lightblue);
+}
+
+
+.hidM {
+    display: block;
+    position: relative;
+    padding: 5px;
+    left: -310px;
+    transition: 0.4s;
+}
+
+.hidMT {
+    display: none;
+}
+
+.btn {
+    background: linear-gradient(darkblue,blue, lightblue);
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 5px black;
+}
+
+.hidMT:checked ~ .btn {
+    left: 280px;
+}
+
+.hidMT:checked ~ .hidM {
+    left: 0;
+}
+
+
+

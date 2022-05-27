@@ -1,11 +1,15 @@
-.default:disabled{
-    background-color:red
+.grey{
+    border-radius: 5px;
+    border: grey 1px solid;
+    background: grey;
+    color:black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
 .default {
     border-radius: 5px;
     border: #61dafb 1px solid;
-    background: linear-gradient(70deg, blue, skyblue);
+    background: linear-gradient(darkblue,blue, lightblue);
     color:white;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
