@@ -7,7 +7,7 @@
 .superInput {
     border: lightblue 2px solid;
     border-radius: 10px;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5)
 }
 
 .superInput:focus {
@@ -20,7 +20,7 @@
 .errorInput {
     border: 2px solid red;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
 }
 
 .errorInput:focus {

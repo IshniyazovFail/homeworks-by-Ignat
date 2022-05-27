@@ -1,5 +1,16 @@
-.header {
+.homeworks{
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+.body{
     background: linear-gradient(royalblue, lightblue);
+}
+
+.header {
     height: 50px;
     display: flex;
     align-items: center;
