@@ -7,7 +7,8 @@ function Error404() {
             <div>404</div>
             <div>Page not found!</div>
             <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
-            <img src="https://funik.ru/wp-content/uploads/2020/07/016df31511a636056a37.png"/>
+            {/*<img className={s.img} src="https://i.gifer.com/1bpS.gif"/>*/}
+            <img className={s.img} src="https://i.gifer.com/EyoD.gif"/>
         </div>
     )
 }

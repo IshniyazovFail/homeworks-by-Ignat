@@ -10,13 +10,13 @@ function HW6() {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        // setValue()
+        setValue(restoreState('editable-span-value', value))
     }
 
     return (
         <div>
             <hr/>
-            homeworks 6
+            <h3>homeworks 6</h3>
 
             {/*should work (должно работать)*/}
             <div>
