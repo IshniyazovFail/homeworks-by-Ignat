@@ -1,0 +1,16 @@
+.body {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: royalblue;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 10px;
+}
