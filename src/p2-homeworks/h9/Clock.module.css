@@ -1,0 +1,12 @@
+.timeAndData {
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(darkblue, blue, lightblue);
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px blue;
+}
+
