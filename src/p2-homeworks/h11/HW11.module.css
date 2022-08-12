@@ -1,0 +1,22 @@
+.SuperRange {
+    display: flex;
+}
+
+.SuperDoubleRange {
+    display: flex;
+}
+
+.value1 {
+    margin-right: 20px;
+    width: 20px;
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.value2 {
+    margin-left: 10px;
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 20px;
+}

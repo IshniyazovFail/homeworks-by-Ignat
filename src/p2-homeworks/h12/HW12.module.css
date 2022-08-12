@@ -21,3 +21,19 @@
 .some-text {
     color: darkslateblue;
 }
+
+.pink {
+    background-color: #fc5daa;
+}
+
+.pink-text {
+    color: mediumspringgreen;
+}
+
+.blue {
+    background-color: #1b31f7;
+}
+
+.blue-text {
+    color: whitesmoke;
+}
